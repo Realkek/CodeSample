@@ -10,19 +10,10 @@ namespace Scenes.BattleVsZombies.ECS.Providers
 
         public InitSystemsProvider(EcsWorld ecsWorld, GameData sceneData)
         {
-            /*_initSystems = new EcsSystems(ecsWorld);
+            _initSystems = new EcsSystems(ecsWorld);
             _initSystems.Add(new PlayerInitSystem(sceneData.PlayerDataProvider));
-            _initSystems.Init();*/
+            _initSystems.Init();
         }
 
-        public void Dispose()
-        {
-            /*_initSystems.Destroy();*/
-        }
-        
-        public void Operate()
-        {
-            //no impl
-        }
     }
 }
